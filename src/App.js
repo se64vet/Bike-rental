@@ -1,34 +1,28 @@
 import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { HomePage, AboutPage, ContactPage, PricingPage, BikePage, BikesPage, NotFoundPage} from "./pages/index.js";
 
 function App() {
   return (
-    <div className="flex flex-col h-full items-center justify-center bg-gray-200 text-gray-700">
-      <div className="flex items-center">
-        <h1 className="text-6xl font-thin tracking-wider">Create React App + Tailwind CSS</h1>
-      </div>
-      <p className="my-6 tracking-wide">
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <div className="mt-6 flex justify-center">
-        <a
-          className="uppercase hover:underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="ml-10 uppercase hover:underline"
-          href="https://tailwindcss.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Tailwind
-        </a>
-      </div>
-    </div>
+	  <BrowserRouter>
+			<Routes> 
+				<Route path="/" element={<HomePage/>}/>
+
+				<Route path="/about" element={<AboutPage/>} />
+
+				<Route path="/pricing" element={<ContactPage/>} />
+				
+				<Route path="contact" element={<PricingPage/>} />
+
+				<Route path="/bikes">
+					<Route index element={<BikesPage />} />
+					<Route path=":bikeId" element={<BikePage />} />
+				</Route>
+				<Route path="*" element={<NotFoundPage />} />
+			</Routes>
+	  </BrowserRouter>
   );
 }
 
 export default App;
+
