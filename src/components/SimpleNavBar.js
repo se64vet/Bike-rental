@@ -29,12 +29,9 @@ const LargeScreenNavbar = (props) =>{
   const {navContent} = props
     return (
         <div className='navBarContainer container mx-auto flex flex-row justify-evenly gap-10 p-10'>
-
-
-
           <div className='navBarLogo'>
             {navContent.isTextLogo 
-              ? <div className='h-full flex items-center'><span className='font-bold text-2xl'>{navContent.textLogoContent}</span></div>
+              ? <Link to='/' className='h-full flex items-center'><span className='font-bold text-2xl'>{navContent.textLogoContent}</span></Link>
               : <div><img src ={navContent.imgLogoUrl} alt='logo'/></div>
             }
           </div>
@@ -86,7 +83,7 @@ const MobileNavBar = (props) =>{
           </div>
           <div className='navBarLogo'>
             {navContent.isTextLogo 
-              ? <div><span className='text-4xl font-bold'>{navContent.textLogoContent}</span></div>
+              ? <Link to='/'><span className='text-4xl font-bold'>{navContent.textLogoContent}</span></Link>
               : <div><img src ={navContent.imgLogoUrl} alt='logo'/></div>
             }
           </div>
