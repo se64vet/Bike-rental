@@ -1,6 +1,6 @@
 import React  from 'react'
 import { Outlet } from 'react-router-dom'
-import SimpleNavBar from '../components/SimpleNavBar'
+import { SimpleNavBar, Footer } from "../components/index";
 
 const Layout = ({children}) => {
   const navBarProps = {
@@ -22,7 +22,7 @@ const Layout = ({children}) => {
     <>
         <SimpleNavBar navContent = {navBarProps}/>
         <Outlet />
-        <footer>made by Dante</footer>
+        <Footer/>
     </>
   )
 }
