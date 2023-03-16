@@ -97,3 +97,15 @@ export const homePage={
     ]
 }
   }
+
+export const about = {
+  banner: {
+    bannerImgUrl : "https://images.unsplash.com/photo-1572452571879-3d67d5b2a39f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+    leadText: "About Us"
+  },
+  content: {
+    imgUrl: "https://images.unsplash.com/photo-1510229681557-8489ef190a94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    leadText: "Motorcycle Rentals Done Right - And More",
+    paragraph: "<p>With over 80,000 members and growing, Riders Share is the largest motorcycle sharing community in the world. We connect riders and owners to create a better motorcycle rental alternative. On Riders Share, you can find the largest selection of bikes for rent in the country, in more than 2,000 locations, for the lowest prices. Sharing your motorcycle may seem daunting at first, but over 15,000 people have trusted us with their motorcycles since we launched in 2018 - crazy! And when you rent on Riders Share, you are also helping a fellow rider make extra cash. We have the best in-class insurance policy for motorcycle sharing. Riders Share works to build a safe and friendly community of motorcycle riders. We using advanced data to vet riders and ensure only the safest book your motorcycle.</p><p>What do riders do when they make more money? They buy more motorcycles. Our mission is to support the motorcycle community by making access to motorcycles more affordable, be it through extra income or by helping the more than 20 million ex riders in the United States get back into motorcycle riding through rentals.</p><p>To fulfill this mission, everybody in our team is a motorcycle rider like you. We live and breathe motorcycles. We were tired of expensive and unreliable motorcycle rentals. When you use Riders Share, you get more than a superior experience. We have a plan to grow the motorcycle community as a whole by using the same techniques that Big Tech uses to glue you to a screen, to convince you to go outside and have fun.</p><p>We wish for you to join this bad-ass community of safe riders. Come ride with us!</p>"
+  }
+}
