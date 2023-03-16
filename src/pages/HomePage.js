@@ -62,7 +62,16 @@ const HomePage = () => {
 
         {/* inventory */}
         <div className='my-20'>
-              <GridDisplay content={inventory}/>
+              <GridDisplay content={homePage.inventory}>
+                <div className='filter-bar'>
+                  <ul className='flex flex-row justify-center gap-10 text-xl underline-offset-8 '>
+                    <li className='hover:underline cursor-pointer'>Popular</li>
+                    <li className='hover:underline cursor-pointer'>Ducati</li>
+                    <li className='hover:underline cursor-pointer'>BMW</li>
+                    <li className='hover:underline cursor-pointer'>Harley</li>
+                  </ul>
+                </div>
+              </GridDisplay>
               <div className='mt-20 text-center cursor-pointer'>
                 <span className='text-xl text-white bg-yellow-500 px-10 py-5 text-center'>See all bikes &#8594;</span>
               </div>
@@ -71,54 +80,6 @@ const HomePage = () => {
         <hr />
     </div>
   )
-}
-const inventory = {
-    small: "Collection",
-    h3: "Our Inventory",
-    collection: [
-        {
-            name: "Ducati Diavel 1260 S",
-            year: "2021",
-            review: "4.9",
-            basePrice: "100",
-            thumbnail: "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_center,h_250,q_jpegmini,w_425/v1/twisted_api/production/vehicles/yss4pco7jrhisuggrodz.jpg"
-        },
-        {
-            name: "Ducati Scrambler 1100",
-            year: "2019",
-            review: "4.5",
-            basePrice: "70",
-            thumbnail: "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_center,h_250,q_jpegmini,w_425/v1/twisted_api/production/vehicles/aool7o7u7y4yiitk9ead.jpg"
-        },
-        {
-            name: "Triump Bonneville",
-            year: "2009",
-            review: "4.0",
-            basePrice: "89",
-            thumbnail: "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_center,h_250,q_jpegmini,w_425/v1/twisted_api/production/vehicles/guewvm41xo4lroy2b1v9.jpg"
-        },
-        {
-            name: "Triump Scrambler 1200",
-            year: "2019",
-            review: "4.5",
-            basePrice: "119",
-            thumbnail: "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_center,h_250,q_jpegmini,w_425/v1/twisted_api/production/vehicles/rzz8qrkkncr4jeobzula.jpg"
-        },
-        {
-            name: "Harley Davidson Fat Bob",
-            year: "2018",
-            review: "4.5",
-            basePrice: "100",
-            thumbnail: "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_center,h_250,q_jpegmini,w_425/v1/twisted_api/production/vehicles/qf3fp5q9jv35jpb0zq6b.jpg"
-        },
-        {
-            name: "Harley Davidson Low Rider S",
-            year: "2015",
-            review: "4.0",
-            basePrice: "143",
-            thumbnail: "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_center,h_250,q_jpegmini,w_425/v1/twisted_api/production/vehicles/qbqtgkwkdrxxyaynvvt7.jpg"
-        }
-    ]
 }
 
 
