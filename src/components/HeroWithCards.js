@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeroWithCards = () => {
+const HeroWithCards = ({content}) => {
   return (
     <div className='container mx-auto'>
         <div className='lead-wrapper py-20 bg-black text-white'>
