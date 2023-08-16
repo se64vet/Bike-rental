@@ -20,12 +20,12 @@ const GridDisplay = ({children, content}) => {
 const Card = ({bike})=> {
     return (
         <div className='flex flex-col items-center gap-3 sm:shadow-lg py-5 px-10 sm:px-5'>
-            <div className='w-full'> <img className='w-full object-cover' src={bike.thumbnail} alt={bike.name}/></div>
-            <div className='w-full flex flex-row justify-between'>
+            <div className='w-full'> <img className='w-full object-cover' src={bike.thumbnail} alt={bike.model}/></div>
+            <div className='w-full flex flex-row justify-between gap-5'>
                 <span className='text-xl font-light'>starting from <span className='font-bold'>${bike.basePrice} /day</span></span>
-                <span className='text-xl'>{bike.review}⭐</span>
+                <span className='text-xl'>{bike.reviews}⭐</span>
             </div>
-            <div className='place-self-start flex-1'><span className='text-2xl font-bold'>{bike.year + " " + bike.name}</span></div>
+            <div className='place-self-start flex-1'><span className='text-2xl font-bold'>{bike.year + " " + bike.make + " " + bike.model}</span></div>
             <div className='w-full'>
                 <button className='w-full py-3 border-2 border-yellow-500 rounded-lg text-xl font-semibold text-yellow-500
                                     hover:bg-yellow-500 hover:text-white'>

@@ -1,0 +1,342 @@
+[
+    {
+        "_id": "cdde4e5bfbbd95e555d6aec0",
+        "year": 2008,
+        "make": "BMW",
+        "model": "Nightster",
+        "fuel": "Electric",
+        "engine_size": "907",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=78483",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=59332",
+            "https://loremflickr.com/900/700/motocycle?lock=25562",
+            "https://loremflickr.com/900/700/motocycle?lock=21130",
+            "https://loremflickr.com/900/700/motocycle?lock=65193"
+        ],
+        "reviews": 1.9,
+        "basePrice": 129
+    },
+    {
+        "_id": "c4c4eeffa0063d24fdeda4af",
+        "year": 2006,
+        "make": "Harley Davidson",
+        "model": "MT-7",
+        "fuel": "Hybrid",
+        "engine_size": "226",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=172141",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=47791",
+            "https://loremflickr.com/900/700/motocycle?lock=93156",
+            "https://loremflickr.com/900/700/motocycle?lock=58524",
+            "https://loremflickr.com/900/700/motocycle?lock=60573"
+        ],
+        "reviews": 1.1,
+        "basePrice": 192
+    },
+    {
+        "_id": "c802398cbbe02b8e07346f79",
+        "year": 2008,
+        "make": "Harley Davidson",
+        "model": "Scrambler",
+        "fuel": "Gasoline",
+        "engine_size": "693",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=278399",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=54455",
+            "https://loremflickr.com/900/700/motocycle?lock=76322",
+            "https://loremflickr.com/900/700/motocycle?lock=72299",
+            "https://loremflickr.com/900/700/motocycle?lock=13119"
+        ],
+        "reviews": 2.7,
+        "basePrice": 211
+    },
+    {
+        "_id": "eeccfebd6bde55709ebb4fd9",
+        "year": 2018,
+        "make": "Indian",
+        "model": "Scrambler",
+        "fuel": "Hybrid",
+        "engine_size": "300",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=827804",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=93130",
+            "https://loremflickr.com/900/700/motocycle?lock=91995",
+            "https://loremflickr.com/900/700/motocycle?lock=3709",
+            "https://loremflickr.com/900/700/motocycle?lock=86646"
+        ],
+        "reviews": 1,
+        "basePrice": 185
+    },
+    {
+        "_id": "926f9fd7e3690b44e246095b",
+        "year": 2019,
+        "make": "BMW",
+        "model": "Nightster",
+        "fuel": "Gasoline",
+        "engine_size": "205",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=679084",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=63535",
+            "https://loremflickr.com/900/700/motocycle?lock=57054",
+            "https://loremflickr.com/900/700/motocycle?lock=42959",
+            "https://loremflickr.com/900/700/motocycle?lock=37238"
+        ],
+        "reviews": 3.4,
+        "basePrice": 129
+    },
+    {
+        "_id": "c2f6c44fdefdf8f71ae6ead6",
+        "year": 2001,
+        "make": "Ducati",
+        "model": "MT-7",
+        "fuel": "Electric",
+        "engine_size": "584",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=796113",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=32655",
+            "https://loremflickr.com/900/700/motocycle?lock=93116",
+            "https://loremflickr.com/900/700/motocycle?lock=13596",
+            "https://loremflickr.com/900/700/motocycle?lock=26266"
+        ],
+        "reviews": 3.5,
+        "basePrice": 104
+    },
+    {
+        "_id": "3e8df70cd521261bee0fe891",
+        "year": 2004,
+        "make": "Yamaha",
+        "model": "Scrambler",
+        "fuel": "Gasoline",
+        "engine_size": "177",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=715273",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=12503",
+            "https://loremflickr.com/900/700/motocycle?lock=11459",
+            "https://loremflickr.com/900/700/motocycle?lock=55962",
+            "https://loremflickr.com/900/700/motocycle?lock=10159"
+        ],
+        "reviews": 4.5,
+        "basePrice": 70
+    },
+    {
+        "_id": "0fa54abc7adf0afc1e1dddaa",
+        "year": 2007,
+        "make": "Harley Davidson",
+        "model": "Hypermotard",
+        "fuel": "Electric",
+        "engine_size": "890",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=793306",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=44280",
+            "https://loremflickr.com/900/700/motocycle?lock=92234",
+            "https://loremflickr.com/900/700/motocycle?lock=97379",
+            "https://loremflickr.com/900/700/motocycle?lock=70742"
+        ],
+        "reviews": 2,
+        "basePrice": 107
+    },
+    {
+        "_id": "c0f0df3fab5d68a805255bae",
+        "year": 2007,
+        "make": "BMW",
+        "model": "MT-7",
+        "fuel": "Gasoline",
+        "engine_size": "711",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=184691",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=42596",
+            "https://loremflickr.com/900/700/motocycle?lock=2828",
+            "https://loremflickr.com/900/700/motocycle?lock=60985",
+            "https://loremflickr.com/900/700/motocycle?lock=82460"
+        ],
+        "reviews": 4.5,
+        "basePrice": 75
+    },
+    {
+        "_id": "ebdeeea83fc108d6bc8167ff",
+        "year": 2019,
+        "make": "Indian",
+        "model": "Street Fighter",
+        "fuel": "Gasoline",
+        "engine_size": "119",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=779138",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=51081",
+            "https://loremflickr.com/900/700/motocycle?lock=89612",
+            "https://loremflickr.com/900/700/motocycle?lock=49217",
+            "https://loremflickr.com/900/700/motocycle?lock=16269"
+        ],
+        "reviews": 4.7,
+        "basePrice": 161
+    },
+    {
+        "_id": "fee24bfb9f7aa66dcfa2d683",
+        "year": 2002,
+        "make": "Harley Davidson",
+        "model": "Street Fighter",
+        "fuel": "Electric",
+        "engine_size": "789",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=950342",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=65580",
+            "https://loremflickr.com/900/700/motocycle?lock=31500",
+            "https://loremflickr.com/900/700/motocycle?lock=71944",
+            "https://loremflickr.com/900/700/motocycle?lock=95063"
+        ],
+        "reviews": 3.2,
+        "basePrice": 187
+    },
+    {
+        "_id": "89b61a5f4e3bd71b0c396ba3",
+        "year": 2015,
+        "make": "Yamaha",
+        "model": "Bob",
+        "fuel": "Diesel",
+        "engine_size": "202",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=477330",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=17757",
+            "https://loremflickr.com/900/700/motocycle?lock=45298",
+            "https://loremflickr.com/900/700/motocycle?lock=53377",
+            "https://loremflickr.com/900/700/motocycle?lock=48987"
+        ],
+        "reviews": 3.9,
+        "basePrice": 89
+    },
+    {
+        "_id": "7de3fab1a4c23e7ea1c8a129",
+        "year": 2021,
+        "make": "Harley Davidson",
+        "model": "Scrambler",
+        "fuel": "Electric",
+        "engine_size": "620",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=535879",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=70431",
+            "https://loremflickr.com/900/700/motocycle?lock=74280",
+            "https://loremflickr.com/900/700/motocycle?lock=56824",
+            "https://loremflickr.com/900/700/motocycle?lock=55638"
+        ],
+        "reviews": 4.1,
+        "basePrice": 111
+    },
+    {
+        "_id": "f9da0f5826f08aefba9b7d0e",
+        "year": 2015,
+        "make": "Ducati",
+        "model": "Street Fighter",
+        "fuel": "Electric",
+        "engine_size": "732",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=501480",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=29315",
+            "https://loremflickr.com/900/700/motocycle?lock=25107",
+            "https://loremflickr.com/900/700/motocycle?lock=43244",
+            "https://loremflickr.com/900/700/motocycle?lock=35832"
+        ],
+        "reviews": 4.3,
+        "basePrice": 102
+    },
+    {
+        "_id": "e2f39fe0aaacadf8db314abe",
+        "year": 2002,
+        "make": "BMW",
+        "model": "Bonneville",
+        "fuel": "Diesel",
+        "engine_size": "897",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=216526",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=52701",
+            "https://loremflickr.com/900/700/motocycle?lock=82744",
+            "https://loremflickr.com/900/700/motocycle?lock=38758",
+            "https://loremflickr.com/900/700/motocycle?lock=76325"
+        ],
+        "reviews": 3.8,
+        "basePrice": 111
+    },
+    {
+        "_id": "bbfcda75e414e5dfbb65498e",
+        "year": 2011,
+        "make": "Triump",
+        "model": "Hypermotard",
+        "fuel": "Diesel",
+        "engine_size": "321",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=755496",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=61100",
+            "https://loremflickr.com/900/700/motocycle?lock=56569",
+            "https://loremflickr.com/900/700/motocycle?lock=55504",
+            "https://loremflickr.com/900/700/motocycle?lock=69115"
+        ],
+        "reviews": 3.9,
+        "basePrice": 138
+    },
+    {
+        "_id": "b6f3c8c08879ca5e7d090eda",
+        "year": 2016,
+        "make": "BMW",
+        "model": "Nightster",
+        "fuel": "Electric",
+        "engine_size": "176",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=773261",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=72986",
+            "https://loremflickr.com/900/700/motocycle?lock=17021",
+            "https://loremflickr.com/900/700/motocycle?lock=33752",
+            "https://loremflickr.com/900/700/motocycle?lock=99300"
+        ],
+        "reviews": 2.5,
+        "basePrice": 91
+    },
+    {
+        "_id": "b59e7b71f0ea5d42dca99b4b",
+        "year": 2011,
+        "make": "Triump",
+        "model": "MT-7",
+        "fuel": "Gasoline",
+        "engine_size": "370",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=178391",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=92090",
+            "https://loremflickr.com/900/700/motocycle?lock=51183",
+            "https://loremflickr.com/900/700/motocycle?lock=18693",
+            "https://loremflickr.com/900/700/motocycle?lock=77064"
+        ],
+        "reviews": 1.8,
+        "basePrice": 189
+    },
+    {
+        "_id": "f0ff7bd0c34b5bb3aeb93b0f",
+        "year": 2016,
+        "make": "Triump",
+        "model": "Bob",
+        "fuel": "Diesel",
+        "engine_size": "633",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=851222",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=62354",
+            "https://loremflickr.com/900/700/motocycle?lock=93315",
+            "https://loremflickr.com/900/700/motocycle?lock=64618",
+            "https://loremflickr.com/900/700/motocycle?lock=10195"
+        ],
+        "reviews": 2.3,
+        "basePrice": 180
+    },
+    {
+        "_id": "1cef4bcdc9304c8758d43db8",
+        "year": 2022,
+        "make": "Indian",
+        "model": "Bonneville",
+        "fuel": "Electric",
+        "engine_size": "584",
+        "thumbnail": "https://source.unsplash.com/random/400x400/?harley,ducati,triump&&sig=180177",
+        "imgs": [
+            "https://loremflickr.com/900/700/motocycle?lock=8728",
+            "https://loremflickr.com/900/700/motocycle?lock=21263",
+            "https://loremflickr.com/900/700/motocycle?lock=10013",
+            "https://loremflickr.com/900/700/motocycle?lock=14271"
+        ],
+        "reviews": 4.3,
+        "basePrice": 144
+    }
+]
