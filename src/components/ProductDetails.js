@@ -3,8 +3,8 @@ import React from 'react'
 
 const ProductDetails = ({name, desc, price, review, btn_label, img_url}) => {
     return (
-    <div className="min-w-screen bg-gray-200 flex items-start p-5 lg:p-10 overflow-hidden relative">
-        <div className="w-full max-w-6xl rounded bg-white shadow-xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
+    <div className="min-w-screen flex items-start p-5 lg:p-10 overflow-hidden relative">
+        <div className="w-full max-w-6xl rounded bg-gray-100 shadow-xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
             <div className="md:flex items-center -mx-10">
                 <div className="w-full md:w-1/2 px-10 mb-10 md:mb-0">
                     <div className="relative">
@@ -14,8 +14,8 @@ const ProductDetails = ({name, desc, price, review, btn_label, img_url}) => {
                 </div>
                 <div className="w-full md:w-1/2 px-10">
                     <div className="mb-10">
-                        <h1 className="font-bold uppercase text-2xl mb-5">{name}</h1>
-                        <p className="text-sm" dangerouslySetInnerHTML={{__html: desc}}></p>
+                        <h1 className="text-3xl font-bold uppercase mb-5">{name}</h1>
+                        <p className="text-md" dangerouslySetInnerHTML={{__html: desc}}></p>
                     </div>
                     <div>
                         <div>

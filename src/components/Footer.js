@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer-wrapper w-screen flex flex-col text-white'>
-        <div className='footer-ad-wrapper container self-center translate-y-20 p-10 text-center bg-gradient-to-r from-yellow-500 to-orange-500'>
+        <div className='footer-ad-wrapper container self-center translate-y-20 p-10 text-center bg-gradient-to-r from-gray-600 to-slate-500'>
             <div className='ad-content-block flex flex-col gap-7 items-center'>
                 <p className='text-4xl font-bold'>{footerText.adLead}</p>
                 <p className='text-clip md:w-2/3'>{footerText.adDesc}</p>
