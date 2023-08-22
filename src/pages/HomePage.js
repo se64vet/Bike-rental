@@ -62,7 +62,7 @@ const HomePage = () => {
 
         {/* inventory */}
         <div className='my-20'>
-              <GridDisplay content={homePage.inventory}>
+              <GridDisplay content={homePage.inventory.collection} sectionLabel={"Our Inventory"} small={"Collection"}>
                 <div className='filter-bar'>
                   <ul className='flex flex-row justify-center gap-10 text-xl underline-offset-8 '>
                     <li className='hover:underline cursor-pointer'>Popular</li>
