@@ -8,9 +8,9 @@ const GridDisplay = ({children, content}) => {
             <h3 className='large text-5xl font-bold'>{content.h3}</h3>
         </div>
         <div className='grid-filter'>{children}</div>
-        <div className='grid-gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5'>
+        <div className='w-3/4 mx-auto grid-gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5'>
             {content.collection.map((item, idx) => (
-                <Card bike={item} key = {idx}/>
+                idx<6? <Card bike={item} key = {idx}/> : <></>
             ))}
         </div>
     </div>
