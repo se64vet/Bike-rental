@@ -75,7 +75,7 @@ const MobileNavBar = (props) =>{
         <div className='fixed top-0 flex flex-row p-5 w-full bg-white'>
           <div className='hamburgerMenu text-4xl' onClick={()=>setMenuActive(!menuActive)}>☰</div>
         </div>
-        <div className='navBarContainer fixed z-10 w-2/3 h-screen flex flex-col gap-5 py-10 px-5 bg-slate-300 ease-in-out duration-300 ' 
+        <div className='navBarContainer fixed top-0 z-10 w-3/4 h-screen flex flex-col gap-5 py-10 px-5 bg-slate-50 shadow-xl ease-in-out duration-300 ' 
          style={menuActive ? {transform: "translateX(0)"} : {transform: "translateX(-100%)"}} >
           <div className='absolute top-0 right-0 aspect-square text-center text-3xl text-gray-500 w-fit p-2 cursor-pointer'
             onClick={()=> setMenuActive(!menuActive)}>

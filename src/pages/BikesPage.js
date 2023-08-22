@@ -12,7 +12,7 @@ const BikesPage = () => {
           <h1 className='w-fit mx-auto mt-24 md:mt-0 text-5xl font-bold'> Our Inventory </h1>
       </div>
 
-      <div className='w-3/4 mx-auto grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5'>
+      <div className='w-4/5 mx-auto grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5'>
         {
           data&& data.map((bike, index) => (
             <ProductCard 
